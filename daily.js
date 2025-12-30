@@ -4,3 +4,6 @@ const dailyContent = [
      { type: "text", data: "Questo è un nuovo testo di prova!" },
     { type: "audio", data: "audio/prova.mp3" }
 ];
+
+
+Aggiunto testo e audio di prova
