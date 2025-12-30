@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+    background: #111;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#mirrorball {
+    font-size: 50px;
+    cursor: pointer;
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+#content p {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+audio {
+    margin: 10px 0;
+}
